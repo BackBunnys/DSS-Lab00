@@ -1,4 +1,4 @@
-package ru.pr.lab00.myapp;
+package ru.pr.lab00.mylib;
 
 public class Country {
 	private String name; //Страна имеет название
