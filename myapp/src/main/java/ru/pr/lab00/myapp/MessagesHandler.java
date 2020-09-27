@@ -4,12 +4,12 @@ import java.util.*;
 
 public class MessagesHandler {
     private static final String BUNDLE_BASE_NAME = "messages";
-    private String locale = "ru";
+    private String language = "ru";
 
-    public void setLocale(String locale) { this.locale = locale; }
+    public void setLanguage(String language) { this.language = language; }
 
     public String getMessage(String key) {
-        ResourceBundle messages = getMessages(locale);
+        ResourceBundle messages = getMessages(language);
 
         return messages.getString(key);
     }

@@ -42,4 +42,13 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 			</plugin>
  		</plugins>
  	</build>
+
+ 	<dependencies>
+	    <dependency>
+			<groupId>ru.pr.lab00</groupId>
+			<artifactId>mylib</artifactId>
+			<version>${project.version}</version>
+			<scope>compile</scope>
+	    </dependency>
+  	</dependencies>
 </project>

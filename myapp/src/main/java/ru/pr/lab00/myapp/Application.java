@@ -50,7 +50,7 @@ public class Application {
 	}
 
 	private void setLanguage(String language) {
-		messages.setLocale(language);
-		cb.setLocale(language);
+		messages.setLanguage(language);
+		cb.setLanguage(language);
 	}
 }
