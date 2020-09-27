@@ -8,12 +8,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<artifactId> myapp </artifactId> <!-- Идентификатор артефакта -->
 	<version> 1.0-SNAPSHOT </version> <!-- Версия артефакта -->
 
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.target>1.8</maven.compiler.target>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<java.version>1.8</java.version>
-	</properties>
  	<build>
  		<plugins>
  			<plugin>
