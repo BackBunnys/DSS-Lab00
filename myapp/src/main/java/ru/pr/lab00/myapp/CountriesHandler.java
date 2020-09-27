@@ -1,4 +1,4 @@
-package ru.pr.lab01.myapp;
+package ru.pr.lab00.myapp;
 
 import java.util.Locale;
 import java.util.PropertyResourceBundle;
