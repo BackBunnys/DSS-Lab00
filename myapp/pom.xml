@@ -14,7 +14,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<java.version>1.8</java.version>
 	</properties>
- 	
  	<build>
  		<plugins>
  			<plugin>
@@ -25,7 +24,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 					<mainClass>ru.pr.lab00.myapp.Application</mainClass>
 	 			</configuration>
  			</plugin>
-
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>native2ascii-maven-plugin</artifactId>
